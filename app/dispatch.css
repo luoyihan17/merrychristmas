@@ -1,0 +1,68 @@
+.posting-dialog{padding:0;width:min(472px,calc(100% - 32px));max-height:calc(100dvh - 30px);overflow:auto;margin:auto;border:3px double #2b483d;background:#fbf5e6;color:#293f34;box-shadow:5px 7px 0 #1e32284d}.posting-dialog::backdrop{background:#152b24aa}.dispatch-mast,.dispatch-copy>div{display:flex;justify-content:space-between;align-items:center}.dispatch-mast{height:44px;margin:0 12px;border-bottom:1px solid #b9bea9;font:700 10px ui-monospace,monospace;letter-spacing:.12em}.dispatch-mast button{display:grid;place-items:center;width:44px;height:44px}.dispatch-stage{padding:10px 12px 0}.dispatch-print{display:block;width:100%;height:auto;border:1px solid #d4cbb1}.dispatch-copy{padding:12px 18px 17px}.dispatch-copy small{font:9px ui-monospace,monospace;letter-spacing:.17em;color:#806d51}.dispatch-copy h2{font:italic 31px/1.15 Georgia,serif;letter-spacing:-.04em;margin:6px 0;overflow-wrap:anywhere;color:#923c32}.dispatch-copy p{font:14px/1.45 system-ui,sans-serif}.dispatch-copy>div{border-top:1px solid #c7c8b5;margin-top:13px;padding-top:7px;gap:12px}.dispatch-replay{display:inline-flex;align-items:center;gap:6px;min-height:44px;font-size:12px;text-decoration:underline;text-underline-offset:3px}.dispatch-copy .primary{min-height:42px;padding:7px 18px}
+.dispatch-print .flying-letter{opacity:0}
+.dispatch-mark{transform-origin:0 0}
+.letter-shadow{filter:drop-shadow(1px 2px 2px #39230e88)}
+.inner-flap,.outer-flap{transform-origin:0 -31px}
+.note-fold{transform-origin:0 -56px}
+@media(prefers-reduced-motion:no-preference){
+ .dispatch-print{--post-time:6.4s}
+ .dispatch-print .flying-letter,.letter-attitude,.letter-shadow,.slot-mask,.office-building,
+ .written-note,.note-fold,.note-ink,.inner-flap,.outer-flap,.sealed-stationery,.dispatch-mark{
+   animation-duration:var(--post-time);animation-fill-mode:both;
+ }
+ .dispatch-print .flying-letter{
+   opacity:1;offset-path:path("M180 156 C177 156 157 143 159 123 C161 104 184 127 184 155 L184 178");
+   offset-anchor:0px 0px;offset-rotate:0deg;animation-name:mail-route;
+ }
+ .letter-attitude{animation-name:letter-tilt}
+ .letter-shadow{animation-name:paper-shadow}
+ .slot-mask{animation-name:slot-mask-arrive}
+ .office-building{animation-name:office-reveal}
+ .written-note{animation-name:note-in}
+ .note-fold{animation-name:fold-note}
+ .note-ink{animation-name:turn-ink}
+ .inner-flap{animation-name:lift-flap}
+ .outer-flap{animation-name:close-flap}
+ .sealed-stationery{animation-name:paper-settles}
+ .dispatch-mark{animation-name:ink-strike}
+}
+/* Each half of the fold meets edge-on at speed. The reverse face eases onto the paper. */
+@keyframes fold-note{
+ 0%,5%{transform:scaleY(1);animation-timing-function:cubic-bezier(.48,0,.83,.6)}
+ 13%{transform:scaleY(0);animation-timing-function:cubic-bezier(.15,.43,.35,1)}
+ 21%,100%{transform:scaleY(-1)}
+}
+@keyframes turn-ink{0%,12.99%{opacity:1}13%,100%{opacity:0}}
+@keyframes note-in{
+ 0%,17%{transform:translate(-1px,-7px) rotate(-1deg)}
+ 35%,100%{transform:translate(0,46px) rotate(0)}
+}
+@keyframes lift-flap{
+ 0%,32%{transform:scaleY(1);animation-timing-function:cubic-bezier(.42,0,.83,.6)}
+ 40%,100%{transform:scaleY(0)}
+}
+@keyframes close-flap{
+ 0%,40%{transform:scaleY(0);animation-timing-function:cubic-bezier(.16,.45,.36,1)}
+ 48%,100%{transform:scaleY(1)}
+}
+@keyframes paper-settles{0%,47%{opacity:0}49%,100%{opacity:1}}
+@keyframes paper-shadow{
+ 0%,52%{filter:drop-shadow(1px 2px 1px #39230e77)}
+ 64%{filter:drop-shadow(4px 11px 5px #39230e44)}
+ 83%,100%{filter:drop-shadow(0 1px 1px #20160d55)}
+}
+/* A continuous centreline keeps the flight tangent to the slot on entry. */
+@keyframes mail-route{
+ 0%,53%{offset-distance:0%;animation-timing-function:cubic-bezier(.35,0,.62,.92)}
+ 93%,100%{offset-distance:100%}
+}
+@keyframes letter-tilt{
+ 0%,53%{transform:rotate(-3deg) scale(1.04)}
+ 65%{transform:rotate(-11deg) scale(.90,.84)}
+ 81%{transform:rotate(2deg) scale(.34,.28)}
+ 89%,100%{transform:rotate(0) scale(.27,.14)}
+}
+@keyframes office-reveal{0%,61%{opacity:0}76%,100%{opacity:1}}
+@keyframes slot-mask-arrive{0%,73%{transform:scaleY(1.67)}74%,100%{transform:scaleY(1)}}
+@keyframes ink-strike{0%,93%{opacity:0;transform:scale(1.04)}96%,100%{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.dispatch-replay{display:none}.dispatch-copy>div{justify-content:flex-end}}

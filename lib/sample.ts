@@ -1,0 +1,3 @@
+import type {Gift} from "./gift";
+export const sample:Gift={id:"sample",from:"Sakura",to:"Xiaoyu",role:"santa",tone:"playful",source:"sample",text:"Ho, ho, ho! Hello, Xiaoyu. Santa here, calling from the North Pole. Sakura tells me you tried five times to get those concert tickets. My reindeer are working on a faster internet connection for you! This Christmas, I hope the next ticket is yours, and the person you want to see is waiting for you, too. Merry Christmas, Xiaoyu."};
+export const sourceLabel=(g:Gift)=>({sample:"Prerecorded sample · CMU Flite",device:"Demo · device voice",fish:"Generated with Fish Audio"}[g.source]);

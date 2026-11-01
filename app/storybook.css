@@ -1,0 +1,96 @@
+/* The doorway, writing desk and exchange are rooms in the same Christmas post office. */
+:root {
+  --header-height:73px;
+  --pine:#243e32; --ink:#342e25; --red:#912f2d;
+  --card:#fcf4e2; --paper:#f2e7d1; --line:#c8b796; --muted:#766952;
+}
+body { background: radial-gradient(ellipse at 50% 30%,#fcf4e2 8%,#f0e5cf 80%,#e9dac0); }
+body:after { opacity:.055; }
+html { scroll-padding-top:var(--header-height); }
+.sitehead { position:sticky; top:0; z-index:30; background:#17372c; border-top:3px solid #a77d48; color:#f8edce; }
+.headinner { height:70px; border-bottom:0; }
+.brandmark { color:#dfc18c; border:1px solid #b89962; }
+.brand small { color:#dfc69c; }
+.header-tools .mute-pref,.header-tools .language-menu,.language-menu select { color:#f5eacf; }
+.language-menu select {background:transparent;}
+.language-menu option {color:#243e32;background:#fbf3df;}
+.folio { border-color:#bcaa87; color:#69543b; }
+.cover-spread {
+  grid-template-columns: .9fr 1.1fr; gap:0; margin:20px 0 26px; align-items:stretch;
+  background:radial-gradient(ellipse at 12% 25%,#324d3d,#162e25 80%);
+  box-shadow:0 9px 24px #44321826; border:1px solid #8a7149;
+}
+.cover-story {
+  display:flex; flex-direction:column; align-items:flex-start; justify-content:center;
+  color:#fff3d7; margin:9px 0 9px 9px; padding:clamp(24px,3.4vw,52px);
+  border:1px solid #b99b675e; border-right:0;
+}
+.cover-story .issue-date,.cover-story h1 em { color:#e6c48b; }
+.cover-story h1 { font-size:clamp(48px,5.2vw,78px); margin:20px 0 16px; }
+.cover-story p { color:#eee0c6; }
+.cover-actions .ink-action,.primary { background:#902f2e; color:#fff4dd; border:1px solid #bf8063; }
+.cover-actions .sample-link {color:#f6e6c7;}
+.cover-spread .art-board {
+  padding:0; background:#19382b; border:none; box-shadow:none; aspect-ratio:1.3;
+}
+.art-board:before { inset:9px; z-index:1; border-color:#f6dfa56b; }
+.door-illustration {width:100%;height:100%;object-fit:cover; position:absolute;inset:0;}
+.art-board .open-caption {
+  background:#22392feb; color:#fff0cc; border:1px solid #b79b69;
+  bottom:20px;right:20px;padding:7px 10px;
+}
+@media(prefers-reduced-motion:no-preference){
+  .door-illustration {animation:open-book .85s ease-out;translate:calc(var(--pull,0px) * .06) 0;}
+  @keyframes open-book {from{transform:scale(1.045);opacity:.7}to{transform:scale(1);opacity:1}}
+}
+.desk-notes {border-top:1px solid #a68c66;}
+.route-line svg {color:#985535;}
+.workgrid {
+  background:#50331d url('/christmas-writing-desk.jpg') center/cover;
+  padding:clamp(22px,3.5vw,50px);gap:clamp(18px,2.5vw,36px);
+  border:1px solid #846a46;box-shadow:0 7px 20px #48341f23;
+}
+.formpaper,.postcard,.giftpaper {
+  background:linear-gradient(112deg,#fff8e8,#f5ead3); border:1px solid #c6ae82;
+  box-shadow:0 4px 12px #2a180d45,inset 0 0 0 4px #fbf3e1,inset 0 0 0 5px #d7c5a2;
+}
+.formpaper input,.formpaper textarea {background:#fffbf1;border-bottom-color:#aa926c;}
+.mobile-station button[aria-current="step"] {background:#264333;color:#fff0cf;border-color:#b99b67;}
+.workgrid .aside {background:#faf1dc;box-shadow:0 4px 12px #2a180d45;padding-bottom:5px;}
+.cardtop {height:auto;}
+.preview-print {width:100px;transform:none;margin:15px auto;}
+.painted-portrait {
+  display:block;aspect-ratio:1;border-radius:50%;background:#294333 url('/christmas-callers.jpg') left center/200% 100% no-repeat;
+  border:2px solid #ceb383;box-shadow:0 0 0 1px #92764e;
+}
+.painted-portrait.pip {background-position:right center;}
+.roles button {background:#f7eed9;border:1px solid #c7b48e;}
+.roles button[aria-pressed=true] {background:#eee1c4;border-color:#82623e;}
+.giftgrid {background:#274235;padding:12px;gap:12px;border:1px solid #9b8155;align-items:stretch;}
+.giftgrid .giftart {
+  display:flex;justify-content:space-between;align-items:flex-start;aspect-ratio:auto;
+  min-height:395px;padding:24px;border:1px solid #b59869;
+  background:linear-gradient(0deg,#17261ae6,transparent 26%,transparent 76%,#18261bd6),url('/christmas-exchange.jpg') center/cover;
+}
+.giftgrid .giftart>.eyebrow,.giftgrid .giftart>.english {display:block;color:#fff0cc;position:relative;}
+.giftgrid .giftart>.english {font:italic 38px/1.1 var(--serif);}
+.giftpaper .airmail,.postcard .airmail {opacity:.65;}
+.caller .painted-portrait {filter:none;}
+.transcript {background:#f7ebd3;}
+.missing { background:linear-gradient(#fff4daed,#fff4daf7),url('/christmas-writing-desk.jpg') center/cover; }
+@media(max-width:720px) {
+  :root{--header-height:62px;}
+  .headinner{height:59px;}
+  .cover-spread{display:flex;flex-direction:column;margin:12px 0 18px;}
+  .cover-spread .art-board{order:0;aspect-ratio:1.95;}
+  .cover-story{order:1;display:block;padding:20px;margin:0 7px 7px;border:1px solid #b99b675e;border-top:0;}
+  .cover-story h1{font-size:clamp(38px,9vw,54px);margin:10px 0;}
+  .cover-story p{margin:0;font-size:15px;}
+  .cover-actions{margin-top:14px;}
+  .art-board .open-caption{bottom:14px;right:14px;}
+  .workgrid{padding:20px 10px 10px;gap:10px;}
+  .workgrid .aside {padding:0;}
+  .giftgrid {padding:6px;gap:6px;}
+  .giftgrid .giftart{width:100%;height:clamp(160px,45vw,230px);min-height:0;padding:14px;background-position:center 57%;}
+  .giftgrid .giftart>.english{font-size:27px;}
+}

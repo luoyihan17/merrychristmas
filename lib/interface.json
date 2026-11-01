@@ -1,0 +1,936 @@
+{
+ "Shareable call link": ["来电分享链接", "通話の共有リンク", "통화 공유 링크", "Enlace de la llamada", "Lien de l’appel"],
+ "Share the link so they can answer your call.": ["把链接发给对方，就能接听这通来电。", "リンクを送ると、相手が電話に出られます。", "상대방이 전화를 받을 수 있도록 링크를 보내세요.", "Envía el enlace para que pueda contestar tu llamada.", "Envoyez le lien pour que votre destinataire puisse répondre."],
+ "Share link": ["分享链接", "リンクを共有", "링크 공유", "Compartir enlace", "Partager le lien"],
+ "Language": [
+  "语言",
+  "言語",
+  "언어",
+  "Idioma",
+  "Langue"
+ ],
+ "Line open": [
+  "线路在线",
+  "回線受付中",
+  "연결 가능",
+  "Línea abierta",
+  "Ligne ouverte"
+ ],
+ "Give Santa a name and an inside story. He has a Christmas call to make.": [
+  "告诉圣诞老人一个名字和一件小事，请他为朋友打来专属圣诞电话。",
+  "名前と二人だけの思い出を教えて。サンタから特別な電話が届きます。",
+  "이름과 둘만의 추억을 알려 주세요. 산타가 특별한 전화를 걸어 드려요.",
+  "Dale a Santa un nombre y una anécdota. Tiene una llamada de Navidad que hacer.",
+  "Un prénom, un souvenir partagé… et le père Noël a un appel à passer."
+ ],
+ "Make a call": [
+  "制作来电",
+  "電話を作る",
+  "전화 만들기",
+  "Crear llamada",
+  "Créer un appel"
+ ],
+ "Try a sample": [
+  "先接示例",
+  "サンプルを聞く",
+  "샘플 듣기",
+  "Probar ejemplo",
+  "Écouter l’exemple"
+ ],
+ "Tap to dial": [
+  "轻点拨号",
+  "タップして発信",
+  "눌러서 연결",
+  "Toca para llamar",
+  "Appuyer pour appeler"
+ ],
+ "Make it personal": [
+  "制作专属祝福",
+  "自分だけのメッセージ",
+  "나만의 메시지",
+  "Personaliza tu llamada",
+  "Personnalisez votre appel"
+ ],
+ "Draft saved": [
+  "草稿已保存",
+  "下書き保存済み",
+  "초안 저장됨",
+  "Borrador guardado",
+  "Brouillon enregistré"
+ ],
+ "Device storage unavailable": [
+  "无法保存草稿",
+  "保存できません",
+  "저장할 수 없음",
+  "No se puede guardar",
+  "Stockage indisponible"
+ ],
+ "Address": [
+  "收件人",
+  "宛先",
+  "받는 사람",
+  "Destino",
+  "Destinataire"
+ ],
+ "Caller": [
+  "角色",
+  "話し手",
+  "캐릭터",
+  "Voz",
+  "Voix"
+ ],
+ "Message": [
+  "祝福",
+  "メッセージ",
+  "메시지",
+  "Mensaje",
+  "Message"
+ ],
+ "Who’s the call for?": [
+  "这通电话送给谁？",
+  "誰に届けますか？",
+  "누구에게 보낼까요?",
+  "¿Para quién es?",
+  "À qui est destiné l’appel ?"
+ ],
+ "Their name": [
+  "朋友的称呼",
+  "相手の名前",
+  "친구 이름",
+  "Su nombre",
+  "Son prénom"
+ ],
+ "Your name": [
+  "你的署名",
+  "あなたの名前",
+  "내 이름",
+  "Tu nombre",
+  "Votre prénom"
+ ],
+ "A little inside story": [
+  "你们之间的一件小事",
+  "二人だけの思い出",
+  "둘만의 추억",
+  "Una anécdota compartida",
+  "Un souvenir partagé"
+ ],
+ "optional": [
+  "选填",
+  "任意",
+  "선택",
+  "opcional",
+  "facultatif"
+ ],
+ "Your Christmas wish": [
+  "你想送出的祝愿",
+  "クリスマスの願い",
+  "크리스마스 소원",
+  "Tu deseo navideño",
+  "Votre souhait de Noël"
+ ],
+ "Our last-train sprint": [
+  "一起追过的末班车",
+  "二人で走った終電",
+  "함께 뛰어 탄 막차",
+  "La carrera al último tren",
+  "Notre course pour le dernier train"
+ ],
+ "Five tries for concert tickets": [
+  "抢了五次演唱会门票",
+  "ライブのチケットに5回挑戦",
+  "다섯 번의 콘서트 예매 도전",
+  "Cinco intentos por las entradas",
+  "Cinq essais pour des billets de concert"
+ ],
+ "Our midnight voice notes": [
+  "我们的深夜语音",
+  "真夜中のボイスメッセージ",
+  "한밤의 음성 메시지",
+  "Nuestros audios de madrugada",
+  "Nos messages vocaux de minuit"
+ ],
+ "More time together": [
+  "多些相聚",
+  "一緒に過ごす時間",
+  "더 자주 만나기",
+  "Más tiempo juntos",
+  "Plus de temps ensemble"
+ ],
+ "Good news": [
+  "好事发生",
+  "うれしい知らせ",
+  "좋은 소식",
+  "Buenas noticias",
+  "De bonnes nouvelles"
+ ],
+ "A little rest": [
+  "好好休息",
+  "少しの休息",
+  "푹 쉬기",
+  "Un descanso",
+  "Un peu de repos"
+ ],
+ "Pick a caller": [
+  "选一位角色",
+  "話し手を選ぶ",
+  "캐릭터 선택",
+  "Elegir una voz",
+  "Choisir une voix"
+ ],
+ "Pick your caller": [
+  "选择来电角色",
+  "話し手を選びましょう",
+  "캐릭터를 골라요",
+  "Elige quién llama",
+  "Qui appellera ?"
+ ],
+ "Santa Claus": [
+  "圣诞老人",
+  "サンタクロース",
+  "산타클로스",
+  "Papá Noel",
+  "Père Noël"
+ ],
+ "Pip the Elf": [
+  "精灵皮普",
+  "妖精ピップ",
+  "요정 핍",
+  "Pip el elfo",
+  "Pip le lutin"
+ ],
+ "Mischief on duty": [
+  "俏皮机灵",
+  "いたずら好き",
+  "장난꾸러기",
+  "Travieso de guardia",
+  "Espiègle de service"
+ ],
+ "Warm & jolly": [
+  "温暖爽朗",
+  "温かく陽気",
+  "다정하고 유쾌",
+  "Cálido y alegre",
+  "Chaleureux et joyeux"
+ ],
+ "Set the mood": [
+  "选择语气",
+  "雰囲気を選ぶ",
+  "분위기 선택",
+  "Elige el tono",
+  "Choisissez le ton"
+ ],
+ "Playful": [
+  "调皮一点",
+  "おちゃめ",
+  "장난스럽게",
+  "Juguetón",
+  "Espiègle"
+ ],
+ "Tender": [
+  "温柔一点",
+  "やさしく",
+  "다정하게",
+  "Tierno",
+  "Tendre"
+ ],
+ "Pep talk": [
+  "元气打气",
+  "応援",
+  "힘차게",
+  "Con ánimo",
+  "Encourageant"
+ ],
+ "Back": [
+  "上一步",
+  "戻る",
+  "뒤로",
+  "Atrás",
+  "Retour"
+ ],
+ "Write the note": [
+  "写下祝福",
+  "メッセージを書く",
+  "메시지 쓰기",
+  "Escribir la nota",
+  "Écrire le mot"
+ ],
+ "Write your message": [
+  "编辑祝福全文",
+  "メッセージを編集",
+  "메시지 편집",
+  "Escribe tu mensaje",
+  "Rédigez votre message"
+ ],
+ "What they’ll hear": [
+  "最终朗读正文",
+  "読み上げる内容",
+  "들려줄 내용",
+  "Lo que escuchará",
+  "Le texte à écouter"
+ ],
+ "New idea": [
+  "换一句灵感",
+  "別のアイデア",
+  "다른 아이디어",
+  "Otra idea",
+  "Une autre idée"
+ ],
+ "Your edits are saved.": [
+  "手动修改已保存。",
+  "編集内容を保存しました。",
+  "수정 사항을 저장했어요.",
+  "Tus cambios se han guardado.",
+  "Vos modifications sont enregistrées."
+ ],
+ "A little inspiration. Make it yours.": [
+  "可以直接编辑这份草稿。",
+  "自由に編集できます。",
+  "자유롭게 고쳐 보세요.",
+  "Edita esta idea a tu gusto.",
+  "Personnalisez cette suggestion."
+ ],
+ "Calls use your device’s demo voice when a Fish Audio voice isn’t configured.": [
+  "未配置 Fish Audio 音色时使用设备演示语音。",
+  "Fish Audio 未設定時は端末の音声で再生します。",
+  "Fish Audio 음성이 없으면 기기 음성으로 재생합니다.",
+  "Sin una voz de Fish Audio se usa la voz del dispositivo.",
+  "Sans voix Fish Audio configurée, la voix de l’appareil est utilisée."
+ ],
+ "Connecting your call…": [
+  "正在生成来电…",
+  "電話を準備中…",
+  "전화 준비 중…",
+  "Preparando llamada…",
+  "Préparation de l’appel…"
+ ],
+ "Update my call": [
+  "重新生成来电",
+  "電話を更新",
+  "전화 업데이트",
+  "Actualizar llamada",
+  "Actualiser l’appel"
+ ],
+ "Create my call": [
+  "生成专属来电",
+  "電話を作成",
+  "전화 생성",
+  "Crear mi llamada",
+  "Créer mon appel"
+ ],
+ "Call preview": [
+  "来电预览",
+  "プレビュー",
+  "미리 보기",
+  "Vista previa",
+  "Aperçu"
+ ],
+ "A Christmas call for": [
+  "这通圣诞来电送给",
+  "クリスマスの電話：",
+  "크리스마스 전화를 받을 사람",
+  "Una llamada para",
+  "Un appel de Noël pour"
+ ],
+ "your friend": [
+  "你的朋友",
+  "お友だち",
+  "친구",
+  "tu amigo",
+  "votre proche"
+ ],
+ "your name": [
+  "你的署名",
+  "あなたの名前",
+  "내 이름",
+  "tu nombre",
+  "votre prénom"
+ ],
+ "Your friend opens a link and taps to answer. No phone number or microphone needed.": [
+  "朋友打开链接即可接听，无需手机号或麦克风。",
+  "リンクを開いてタップするだけ。電話番号やマイクは不要です。",
+  "링크를 열고 눌러 받으세요. 전화번호나 마이크는 필요 없어요.",
+  "Abre el enlace y toca para contestar. No se necesita número ni micrófono.",
+  "Il suffit d’ouvrir le lien et de décrocher. Aucun numéro ni micro requis."
+ ],
+ "Back to the workshop": [
+  "返回制作台",
+  "制作画面に戻る",
+  "작업대로 돌아가기",
+  "Volver al taller",
+  "Retour à l’atelier"
+ ],
+ "North Pole calling…": [
+  "北极特别来电",
+  "北極から着信…",
+  "북극에서 온 전화…",
+  "Llamada del Polo Norte…",
+  "Appel du pôle Nord…"
+ ],
+ "Your call for {to} is ready.": [
+  "给{to}的来电准备好了。",
+  "{to}への電話ができました。",
+  "{to}님에게 보낼 전화가 준비됐어요.",
+  "Tu llamada para {to} está lista.",
+  "Votre appel pour {to} est prêt."
+ ],
+ "{from} asked {role} to leave a Christmas message for {to}.": [
+  "{from}请{role}给{to}送来圣诞祝福。",
+  "{from}からのお願いで、{role}が{to}にメッセージを届けます。",
+  "{from}님의 부탁으로 {role}가 {to}님에게 축하 메시지를 전해요.",
+  "{from} pidió a {role} un mensaje de Navidad para {to}.",
+  "{from} a demandé à {role} de laisser un message de Noël à {to}."
+ ],
+ "Share this call": [
+  "分享这通来电",
+  "この電話をシェア",
+  "전화 공유",
+  "Compartir llamada",
+  "Partager l’appel"
+ ],
+ "Edit message": [
+  "修改内容",
+  "編集",
+  "메시지 수정",
+  "Editar mensaje",
+  "Modifier le message"
+ ],
+ "Regenerate": [
+  "重新生成",
+  "再作成",
+  "다시 생성",
+  "Volver a generar",
+  "Régénérer"
+ ],
+ "Connecting…": [
+  "连接中…",
+  "接続中…",
+  "연결 중…",
+  "Conectando…",
+  "Connexion…"
+ ],
+ "Answer call": [
+  "接听祝福",
+  "電話に出る",
+  "전화 받기",
+  "Contestar",
+  "Décrocher"
+ ],
+ "Play call": [
+  "试听来电",
+  "再生",
+  "재생",
+  "Escuchar",
+  "Écouter"
+ ],
+ "Read first": [
+  "先看文字",
+  "先に読む",
+  "먼저 읽기",
+  "Leer primero",
+  "Lire d’abord"
+ ],
+ "Pause": [
+  "暂停",
+  "一時停止",
+  "일시 정지",
+  "Pausar",
+  "Pause"
+ ],
+ "Resume": [
+  "继续播放",
+  "再開",
+  "계속 재생",
+  "Continuar",
+  "Reprendre"
+ ],
+ "Replay": [
+  "重播",
+  "もう一度聞く",
+  "다시 듣기",
+  "Repetir",
+  "Réécouter"
+ ],
+ "Retry playback": [
+  "重试播放",
+  "もう一度再生",
+  "재생 재시도",
+  "Reintentar",
+  "Réessayer"
+ ],
+ "End call": [
+  "结束来电",
+  "通話終了",
+  "통화 종료",
+  "Colgar",
+  "Raccrocher"
+ ],
+ "AI voice gift": [
+  "AI 语音礼物",
+  "AI音声ギフト",
+  "AI 음성 선물",
+  "Regalo de voz con IA",
+  "Cadeau vocal IA"
+ ],
+ "Demo · device voice": [
+  "演示 · 设备语音",
+  "デモ・端末の音声",
+  "데모 · 기기 음성",
+  "Demo · voz del dispositivo",
+  "Démo · voix de l’appareil"
+ ],
+ "Prerecorded sample · CMU Flite": [
+  "预生成示例 · CMU Flite",
+  "録音済みサンプル · CMU Flite",
+  "사전 생성 샘플 · CMU Flite",
+  "Ejemplo pregrabado · CMU Flite",
+  "Exemple préenregistré · CMU Flite"
+ ],
+ "Generated with Fish Audio": [
+  "Fish Audio 生成语音",
+  "Fish Audio 生成音声",
+  "Fish Audio 생성 음성",
+  "Generado con Fish Audio",
+  "Généré avec Fish Audio"
+ ],
+ "Your message": [
+  "祝福全文",
+  "メッセージ全文",
+  "메시지 전문",
+  "Tu mensaje",
+  "Votre message"
+ ],
+ "Sample transcript": [
+  "示例全文",
+  "サンプルの全文",
+  "샘플 전문",
+  "Texto del ejemplo",
+  "Texte de l’exemple"
+ ],
+ "This one was just for you.": [
+  "这份祝福专门送给你。",
+  "あなただけの贈り物です。",
+  "당신만을 위한 선물이에요.",
+  "Este mensaje era solo para ti.",
+  "Un message rien que pour vous."
+ ],
+ "Want to send a little joy back?": [
+  "也给对方回一通？",
+  "お返しを届けますか？",
+  "답장을 보내 볼까요?",
+  "¿Quieres devolver la alegría?",
+  "Envie de répondre ?"
+ ],
+ "Call {name} back": [
+  "回赠{name}一通",
+  "{name}にお返し",
+  "{name}님에게 답장",
+  "Responder a {name}",
+  "Répondre à {name}"
+ ],
+ "Make one for a friend": [
+  "也送给我的朋友",
+  "友だちに贈る",
+  "친구에게도 보내기",
+  "Crear una para un amigo",
+  "En créer un pour un proche"
+ ],
+ "Translate message": [
+  "翻译祝福",
+  "メッセージを翻訳",
+  "메시지 번역",
+  "Traducir mensaje",
+  "Traduire le message"
+ ],
+ "From language": [
+  "原文语言",
+  "元の言語",
+  "원문 언어",
+  "Idioma de origen",
+  "Langue source"
+ ],
+ "To language": [
+  "目标语言",
+  "翻訳先の言語",
+  "번역할 언어",
+  "Idioma de destino",
+  "Langue cible"
+ ],
+ "Translate": [
+  "翻译",
+  "翻訳する",
+  "번역하기",
+  "Traducir",
+  "Traduire"
+ ],
+ "Translating…": [
+  "翻译中…",
+  "翻訳中…",
+  "번역 중…",
+  "Traduciendo…",
+  "Traduction…"
+ ],
+ "Translation": [
+  "译文",
+  "訳文",
+  "번역문",
+  "Traducción",
+  "Traduction"
+ ],
+ "Use this translation": [
+  "采用这份译文",
+  "この訳文を使う",
+  "이 번역 사용",
+  "Usar esta traducción",
+  "Utiliser cette traduction"
+ ],
+ "Only tap Translate if you want to send this text to MyMemory for translation.": [
+  "点击「翻译」会将这段文字发送给 MyMemory 翻译。",
+  "「翻訳する」を押すと、この文章を MyMemory に送信します。",
+  "번역하기를 누르면 이 텍스트를 MyMemory로 보냅니다.",
+  "Al pulsar Traducir, envías este texto a MyMemory.",
+  "Appuyer sur Traduire envoie ce texte à MyMemory."
+ ],
+ "Choose two different languages.": [
+  "请选择不同的原文和目标语言。",
+  "異なる言語を選んでください。",
+  "서로 다른 언어를 선택하세요.",
+  "Elige dos idiomas diferentes.",
+  "Choisissez deux langues différentes."
+ ],
+ "Translation unavailable. Try again later.": [
+  "翻译服务暂不可用，请稍后再试。",
+  "翻訳できません。後でもう一度お試しください。",
+  "번역할 수 없어요. 잠시 후 다시 시도하세요.",
+  "Traducción no disponible. Inténtalo más tarde.",
+  "Traduction indisponible. Réessayez plus tard."
+ ],
+ "Translation limit reached. Try again later.": [
+  "翻译额度已用完，请稍后重试。",
+  "翻訳の上限に達しました。後でもう一度お試しください。",
+  "번역 한도에 도달했어요. 나중에 다시 시도하세요.",
+  "Límite de traducción alcanzado. Inténtalo más tarde.",
+  "Quota de traduction atteint. Réessayez plus tard."
+ ],
+ "Shorten to 200 characters to use this translation.": [
+  "请将译文缩短至 200 字以内后采用。",
+  "200文字以内に短くしてください。",
+  "번역문을 200자 이내로 줄여 주세요.",
+  "Acorta a 200 caracteres para usar la traducción.",
+  "Limitez la traduction à 200 caractères pour l’utiliser."
+ ],
+ "Read translation. The recording stays in its original language.": [
+  "这里提供文字译文，录音仍使用原来的语言。",
+  "訳文を表示します。録音は元の言語のままです。",
+  "번역문을 읽을 수 있어요. 녹음 언어는 유지됩니다.",
+  "Lee la traducción. El audio conserva su idioma original.",
+  "Lisez la traduction. L’enregistrement garde sa langue d’origine."
+ ],
+ "Replace your edited message with a new idea? Cancel to keep your words.": [
+  "用新灵感替换你编辑的正文？取消即可保留。",
+  "編集した文章を別の案に置き換えますか？キャンセルで元の文章を残せます。",
+  "편집한 메시지를 새 문구로 바꿀까요? 취소하면 그대로 유지됩니다.",
+  "¿Sustituir el texto editado por otra idea? Cancela para conservarlo.",
+  "Remplacer le texte modifié par une autre idée ? Annulez pour le conserver."
+ ],
+ "Link copied. It’s ready to send.": [
+  "链接已复制，可以发给朋友了。",
+  "リンクをコピーしました。",
+  "링크를 복사했어요.",
+  "Enlace copiado. Ya puedes enviarlo.",
+  "Lien copié. Vous pouvez l’envoyer."
+ ],
+ "Select and copy the link below.": [
+  "请选择并复制下方链接。",
+  "下のリンクを選択してコピーしてください。",
+  "아래 링크를 선택해 복사하세요.",
+  "Selecciona y copia el enlace de abajo.",
+  "Sélectionnez et copiez le lien ci-dessous."
+ ],
+ "Please add both names before continuing.": [
+  "请先填写双方的名字。",
+  "二人の名前を入力してください。",
+  "두 사람의 이름을 입력하세요.",
+  "Escribe ambos nombres para continuar.",
+  "Indiquez les deux prénoms pour continuer."
+ ],
+ "Add both names and keep the message between 1 and 200 characters.": [
+  "请填写双方姓名，祝福正文需为 1–200 字。",
+  "二人の名前と1〜200文字の文章を入力してください。",
+  "이름 두 개와 1~200자의 메시지를 입력하세요.",
+  "Añade ambos nombres y un mensaje de 1 a 200 caracteres.",
+  "Indiquez les deux prénoms et un message de 1 à 200 caractères."
+ ],
+ "Your last recording is out of date. Generate a new call to share these changes.": [
+  "内容已修改，请重新生成来电后分享。",
+  "変更をシェアするには、電話を作り直してください。",
+  "변경 사항을 공유하려면 전화를 다시 생성하세요.",
+  "Genera otra llamada para compartir los cambios.",
+  "Générez un nouvel appel pour partager ces modifications."
+ ],
+ "We couldn’t find this call": [
+  "未找到这通来电",
+  "この電話が見つかりません",
+  "전화를 찾을 수 없어요",
+  "No encontramos la llamada",
+  "Appel introuvable"
+ ],
+ "Check the link or try again in a moment.": [
+  "请确认链接完整，或稍后重试。",
+  "リンクを確認するか、後でもう一度お試しください。",
+  "링크를 확인하거나 잠시 후 다시 시도하세요.",
+  "Comprueba el enlace o inténtalo de nuevo.",
+  "Vérifiez le lien ou réessayez plus tard."
+ ],
+ "Try again": [
+  "重试",
+  "再試行",
+  "다시 시도",
+  "Reintentar",
+  "Réessayer"
+ ],
+ "Connecting to the North Pole…": [
+  "正在接通北极…",
+  "北極に接続中…",
+  "북극에 연결 중…",
+  "Conectando con el Polo Norte…",
+  "Connexion au pôle Nord…"
+ ],
+ "Your device voice is unavailable. Retry or read the note below.": [
+  "设备语音不可用，请重试或阅读下方正文。",
+  "端末音声を使えません。再試行するか、下の文章をお読みください。",
+  "기기 음성을 사용할 수 없습니다. 다시 시도하거나 아래 글을 읽으세요.",
+  "Voz no disponible. Reintenta o lee el mensaje.",
+  "Voix indisponible. Réessayez ou lisez le texte."
+ ],
+ "Your device voice didn’t respond. Try again or read the note below.": [
+  "设备语音没有响应，请重试或阅读下方正文。",
+  "端末音声が応答しません。再試行するか文章をお読みください。",
+  "기기 음성이 응답하지 않습니다. 다시 시도하거나 글을 읽으세요.",
+  "La voz no responde. Reintenta o lee el mensaje.",
+  "La voix ne répond pas. Réessayez ou lisez le texte."
+ ],
+ "Playback was interrupted. Tap to try again.": [
+  "播放中断，请点击重试。",
+  "再生が中断しました。タップして再試行してください。",
+  "재생이 중단됐어요. 눌러서 다시 시도하세요.",
+  "Reproducción interrumpida. Toca para reintentar.",
+  "Lecture interrompue. Appuyez pour réessayer."
+ ],
+ "This browser has no device voice. Read the note below or open it in your phone’s browser.": [
+  "当前浏览器不支持设备朗读。请看下方正文，或用手机系统浏览器打开。",
+  "このブラウザでは端末音声を使えません。下の文章を読むか、スマートフォンのブラウザで開いてください。",
+  "이 브라우저는 기기 음성을 지원하지 않습니다. 글을 읽거나 휴대폰 브라우저에서 여세요.",
+  "Este navegador no admite voz. Lee la nota o usa el navegador del teléfono.",
+  "Ce navigateur ne propose pas de voix. Lisez le texte ou ouvrez-le dans le navigateur du téléphone."
+ ],
+ "The audio couldn’t load. Try again or read the note.": [
+  "音频加载失败，请重试或阅读正文。",
+  "音声を読み込めません。再試行するか文章をお読みください。",
+  "음성을 불러올 수 없어요. 다시 시도하거나 글을 읽으세요.",
+  "No se pudo cargar el audio. Reintenta o lee la nota.",
+  "Impossible de charger le son. Réessayez ou lisez le texte."
+ ],
+ "Open in Google Translate": [
+  "用 Google 翻译打开",
+  "Google 翻訳で開く",
+  "Google 번역에서 열기",
+  "Abrir en Google Traductor",
+  "Ouvrir dans Google Traduction"
+ ],
+ "Translate on this device": [
+  "优先在此设备翻译",
+  "端末で翻訳",
+  "기기에서 번역",
+  "Traducir en el dispositivo",
+  "Traduire sur cet appareil"
+ ],
+ "If this language pair is unavailable on your device, you can choose online translation.": [
+  "设备不支持该语言对时，可以选择在线翻译。",
+  "端末が対応していない言語ペアはオンライン翻訳を選べます。",
+  "기기에서 지원하지 않는 언어 쌍은 온라인 번역을 선택할 수 있어요.",
+  "Si el dispositivo no admite estos idiomas, puedes elegir traducción en línea.",
+  "Si cette paire est indisponible sur votre appareil, vous pouvez choisir la traduction en ligne."
+ ],
+ "Paste your translation here": [
+  "在这里粘贴译文",
+  "ここに訳文を貼り付け",
+  "번역문을 여기에 붙여넣기",
+  "Pega aquí la traducción",
+  "Collez votre traduction ici"
+ ],
+ "Online translation": [
+  "在线翻译",
+  "オンライン翻訳",
+  "온라인 번역",
+  "Traducción en línea",
+  "Traduction en ligne"
+ ],
+ "Ring the workshop": [
+  "呼叫接线室",
+  "接線室に電話",
+  "교환실에 전화",
+  "Llamar al taller",
+  "Appeler l’atelier"
+ ],
+ "Replay the opening": [
+  "重看开场",
+  "オープニングを再生",
+  "오프닝 다시 보기",
+  "Repetir la apertura",
+  "Revoir l’ouverture"
+ ],
+ "Skip intro": [
+  "跳过开场",
+  "スキップ",
+  "건너뛰기",
+  "Saltar",
+  "Passer"
+ ],
+ "Christmas Eve, North Pole.": [
+  "平安夜，北极。",
+  "クリスマスイブ、北極にて。",
+  "크리스마스이브, 북극에서.",
+  "Nochebuena en el Polo Norte.",
+  "Veille de Noël au pôle Nord."
+ ],
+ "Play music": [
+  "播放音乐",
+  "音楽を再生",
+  "음악 재생",
+  "Reproducir música",
+  "Écouter la musique"
+ ],
+ "Pause music": [
+  "暂停音乐",
+  "音楽を一時停止",
+  "음악 일시정지",
+  "Pausar música",
+  "Suspendre la musique"
+ ],
+ "Retry music": [
+  "重试播放",
+  "もう一度再生",
+  "다시 재생",
+  "Reintentar",
+  "Réessayer"
+ ],
+ "Compressed for web, volume lowered.": [
+  "已压缩并调低音量。",
+  "ウェブ用に圧縮し、音量を下げています。",
+  "웹용으로 압축하고 음량을 낮췄습니다.",
+  "Audio comprimido con volumen reducido.",
+  "Audio compressé à volume réduit."
+ ],
+ "A call from": [
+  "一通来自",
+  "もしもし、",
+  "여보세요,",
+  "Una llamada",
+  "Un appel"
+ ],
+ "the North Pole.": [
+  "北极的来电。",
+  "北極です。",
+  "북극입니다.",
+  "del Polo Norte.",
+  "du pôle Nord."
+ ],
+ "Write a Christmas call": [
+  "写一通圣诞来电",
+  "クリスマスの電話を書く",
+  "크리스마스 전화 쓰기",
+  "Escribir una llamada",
+  "Écrire un appel de Noël"
+ ],
+ "Open the stationery": [
+  "打开信笺",
+  "便箋を開く",
+  "편지지 열기",
+  "Abrir la carta",
+  "Ouvrir le papier à lettres"
+ ],
+ "Write a note": [
+  "写下祝福",
+  "手紙を書く",
+  "편지 쓰기",
+  "Escribe una nota",
+  "Écrivez un mot"
+ ],
+ "Choose a voice": [
+  "挑选声音",
+  "声を選ぶ",
+  "목소리 고르기",
+  "Elige una voz",
+  "Choisissez une voix"
+ ],
+ "Send a little joy": [
+  "寄出心意",
+  "喜びを届ける",
+  "기쁨 보내기",
+  "Envía alegría",
+  "Envoyez de la joie"
+ ],
+ "Back to the cover": [
+  "返回封面",
+  "表紙に戻る",
+  "표지로 돌아가기",
+  "Volver a la portada",
+  "Retour à la couverture"
+ ],
+ "Mute background music": [
+  "关闭背景音乐",
+  "BGMを消音",
+  "배경음 끄기",
+  "Silenciar la música",
+  "Couper la musique"
+ ],
+ "Unmute background music": [
+  "开启背景音乐",
+  "BGMを再開",
+  "배경음 켜기",
+  "Activar la música",
+  "Rétablir la musique"
+ ],
+ "A letter for {to}.": [
+  "给{to}的一封信。",
+  "{to}さんへの手紙。",
+  "{to}에게 보내는 편지.",
+  "Una carta para {to}.",
+  "Une lettre pour {to}."
+ ],
+ "Link copied. Paste it into a message to send your call.": [
+  "链接已复制。粘贴到聊天中，就能把这通来电送给朋友。",
+  "リンクをコピーしました。メッセージに貼り付けて送ってください。",
+  "링크를 복사했어요. 메시지에 붙여 넣어 보내세요.",
+  "Enlace copiado. Pégalo en un mensaje para enviar tu llamada.",
+  "Lien copié. Collez-le dans un message pour envoyer votre appel."
+ ],
+ "Your call is ready to share again whenever you like.": [
+  "想再分享时，可以继续使用同一个来电链接。",
+  "同じリンクからいつでもまた共有できます。",
+  "같은 링크로 언제든 다시 공유할 수 있어요.",
+  "Puedes volver a compartir la llamada con el mismo enlace.",
+  "Vous pouvez partager à nouveau cet appel avec le même lien."
+ ],
+ "Replay the folding": [
+  "重看寄信动画",
+  "投函をもう一度見る",
+  "편지 접기 다시 보기",
+  "Ver la animación otra vez",
+  "Revoir le pliage"
+ ],
+ "Done": [
+  "完成",
+  "完了",
+  "완료",
+  "Listo",
+  "Terminé"
+ ],
+ "Close": [
+  "关闭",
+  "閉じる",
+  "닫기",
+  "Cerrar",
+  "Fermer"
+ ]
+}

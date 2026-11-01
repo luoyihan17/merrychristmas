@@ -1,0 +1,2 @@
+Sample: public/sample.mp3
+Original English script, synthesized offline with CMU Flite's US English rms voice, EQ and loudness normalization in FFmpeg. This is a prerecorded demo, independent of Fish Audio. The English engine uses “Shyow Yoo” for the name Xiaoyu. The matching transcript is in lib/sample.ts.
