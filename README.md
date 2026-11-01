@@ -4,15 +4,15 @@ A mobile-first English Christmas voice gift. Address a friend, pick Santa or Pip
 
 ## Development
 
-React, TypeScript, Vinext and Cloudflare Workers. Install dependencies, then run pnpm dev. Build with pnpm build. The Sites manifest binds an R2 bucket as BUCKET. Gift snapshots and generated MP3s survive changes to the device-local draft. A gift opens at /?gift=<id>; the built-in sample is /?gift=sample.
+React, TypeScript, Vinext and Cloudflare Workers. Install dependencies, then run pnpm dev. Build with pnpm build. The default deployment needs no database or object-storage subscription. Shared links contain a validated snapshot of the message and use the recipient’s device voice. A gift opens at /?gift=<encoded-message>; the built-in sample is /?gift=sample. Anyone with a link can read its contents; the encoding is not encryption.
 
 ## Cloudflare Pages deployment
 
 Use Node.js 22 or later and the pnpm version declared in package.json. Connect this repository to a Cloudflare Pages project, select the main branch, set the build command to `pnpm build:pages`, and set the output directory to `dist/pages`. The framework preset is None.
 
-Before the first deployment, create an R2 bucket named `happy-christmas-gifts` in the same Cloudflare account. The tracked wrangler.jsonc binds it as `BUCKET`. The Pages build preserves the server-rendered gift pages and the gift and translation APIs. Static images, scripts, styles, and audio are served directly by Pages.
+No R2 bucket is required. Leave storage bindings empty: the gift API creates self-contained links instead of storing messages. The Pages build preserves the server-rendered gift pages and the gift and translation APIs. Static images, scripts, styles, and sample audio are served directly by Pages.
 
-Set the optional Fish Audio variables described below as encrypted environment variables in Cloudflare. With no Fish Audio configuration, the app uses its existing device-voice mode. Keep runtime keys in Cloudflare settings.
+The published version uses device speech for custom messages and bundled audio for the sample. Optional server-generated Fish Audio recordings require separately configured storage and credentials; they are not enabled by this deployment.
 
 ## Audio configuration
 

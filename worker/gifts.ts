@@ -1,4 +1,5 @@
 import {valid, type Gift,type Message} from "../lib/gift";
+import {createLinkGift,readLinkGift} from "../lib/link-gift";
 type Config = { BUCKET?: R2Bucket; FISH_API_KEY?:string; FISH_MODEL?:string; FISH_SANTA_VOICE_ID?:string; FISH_ELF_VOICE_ID?:string };
 const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{"Cache-Control":"no-store","X-Content-Type-Options":"nosniff"}});
 const fail=(s:string,status:number)=>json({error:s},status);
@@ -7,8 +8,12 @@ const upstream:Record<number,string>={401:"Fish Audio authentication failed. Che
 export async function giftAPI(req:Request, cfg:Config):Promise<Response>{
   const url=new URL(req.url), parts=url.pathname.split("/").filter(Boolean).slice(2);
   const bucket=cfg.BUCKET;
-  if(!bucket) return fail("Gift storage is unavailable. Please try again.",503);
+  if(req.method==="GET" && parts.length===1 && parts[0].startsWith("v1.")){
+    const gift=readLinkGift(parts[0]);
+    return gift?json(gift):fail("Call not found. Check your shared link.",404);
+  }
   if(req.method==="GET" && parts.length>0 && idPattern.test(parts[0])){
+    if(!bucket)return fail("Call not found. Check your shared link.",404);
     const audio=parts[1]==="audio";
     if(parts.length!==(audio?2:1))return fail("Call not found.",404);
     const range=audio?req.headers.get("range"):null;
@@ -40,6 +45,7 @@ export async function giftAPI(req:Request, cfg:Config):Promise<Response>{
   while(true){const {value,done}=await reader.read();if(done)break;bytes+=value.length;if(bytes>8192){await reader.cancel();return fail("Request too long.",413)}raw+=decoder.decode(value,{stream:true})}
   let body;try{body=JSON.parse(raw+decoder.decode())}catch{return fail("Invalid request format.",400)}
   if(!valid(body?.message)||!idPattern.test(String(body?.key)))return fail("Add both names and a message of up to 200 characters.",400);
+  if(!bucket)return json(createLinkGift(body.message),201);
   const {to,from,text,role,tone,language}=body.message as Message, key=body.key;
   const lock="lock/"+key, saved="gift/"+key;
   const old=await bucket.get(saved);
